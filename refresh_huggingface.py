@@ -19,8 +19,8 @@ except ImportError:
     sys.exit(1)  # 无法导入关键模块，直接退出
 
 # --- 配置参数 ---
-# STORAGE_STATE_PATH = "/home/zhudeshuai/software/huggingface_refresh/huggingface_state.json"  # 确保路径与保存时一致
-STORAGE_STATE_PATH = "huggingface_state.json"  # 确保路径与保存时一致
+STORAGE_STATE_PATH = "/home/zhudeshuai/software/huggingface_refresh/huggingface_state.json"  # 确保路径与保存时一致
+# STORAGE_STATE_PATH = "huggingface_state.json"  # 确保路径与保存时一致
 TARGET_URL = "https://huggingface.co/spaces/zhuhuggingface/zhuhuggingfacevv1"
 
 # Hugging Face Space 内部的 Jupyter 密码
